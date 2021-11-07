@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Figure">
+      <UniqueIdentifier>{ce09e033-3e63-4a24-b734-665195e66ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{05c416ea-12d5-4101-80c1-00ffc9b58197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Figure\Line">
+      <UniqueIdentifier>{b5547baa-3d9d-49a9-b3b9-d683dd607b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Figure\Rectangle">
+      <UniqueIdentifier>{f4fdb770-0f8d-48e5-a604-999f5e5cbbcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Figure\Square">
+      <UniqueIdentifier>{7496db8b-1903-4fd4-aedd-c7fede4cfcf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Figure\Ellipse">
+      <UniqueIdentifier>{b1d789d8-acdc-4350-aaac-62006b25351a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Figure\Circle">
+      <UniqueIdentifier>{38afa52d-e71b-4cd0-9a4f-b03ad56c2440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Figure\Point">
+      <UniqueIdentifier>{e4697a17-bbf7-4604-8c64-e74b06e7e041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event Process">
+      <UniqueIdentifier>{0e3d4423-65c2-4bd6-8d8d-b82359522e77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event Process\HandleDraw">
+      <UniqueIdentifier>{acabde02-9da3-4d19-b304-8901418c8cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event Process\HandleEvent">
+      <UniqueIdentifier>{ae2534b0-27ac-4832-81c3-d564ff79e31d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event Process\HandleFile">
+      <UniqueIdentifier>{222e6301-1416-43a7-894b-2504f5b3b38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Lexical Analysis">
+      <UniqueIdentifier>{bb2addef-fe29-4774-97dd-1381f7787345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Lexical Analysis\Tokenizer">
+      <UniqueIdentifier>{339502fc-6888-4d37-a641-0bdfca7b11f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Lexical Analysis\Parser">
+      <UniqueIdentifier>{9ad0a7ca-3b99-4d7d-b2a7-c9c30304b6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Helper">
+      <UniqueIdentifier>{b6c89154-4660-49e7-b1ad-81cd5694e929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities\Pen">
+      <UniqueIdentifier>{59040de6-43dd-458c-bdfa-f4002f046a1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Event Process\HandleEdit">
+      <UniqueIdentifier>{7e62e54d-4fea-43d4-9436-6e8475a3fd5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Figure.h">
+      <Filter>Header Files\Figure</Filter>
+    </ClInclude>
+    <ClInclude Include="Paint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Figure\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Header Files\Figure\Rectangle</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\Figure\Square</Filter>
+    </ClInclude>
+    <ClInclude Include="Ellipse.h">
+      <Filter>Header Files\Figure\Ellipse</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Figure\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\Figure\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Tokenizer.h">
+      <Filter>Header Files\Utilities\Lexical Analysis\Tokenizer</Filter>
+    </ClInclude>
+    <ClInclude Include="Parser.h">
+      <Filter>Header Files\Utilities\Lexical Analysis\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleDraw.h">
+      <Filter>Header Files\Event Process\HandleDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleEvent.h">
+      <Filter>Header Files\Event Process\HandleEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleFile.h">
+      <Filter>Header Files\Event Process\HandleFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>Header Files\Utilities\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Pen.h">
+      <Filter>Header Files\Utilities\Pen</Filter>
+    </ClInclude>
+    <ClInclude Include="HandleEdit.h">
+      <Filter>Header Files\Event Process\HandleEdit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Header Files\Figure\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Header Files\Figure\Rectangle</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Header Files\Figure\Square</Filter>
+    </ClCompile>
+    <ClCompile Include="Ellipse.cpp">
+      <Filter>Header Files\Figure\Ellipse</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Header Files\Figure\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Header Files\Figure\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Tokenizer.cpp">
+      <Filter>Header Files\Utilities\Lexical Analysis\Tokenizer</Filter>
+    </ClCompile>
+    <ClCompile Include="Parser.cpp">
+      <Filter>Header Files\Utilities\Lexical Analysis\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleDraw.cpp">
+      <Filter>Header Files\Event Process\HandleDraw</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleEvent.cpp">
+      <Filter>Header Files\Event Process\HandleEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleFile.cpp">
+      <Filter>Header Files\Event Process\HandleFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.cpp">
+      <Filter>Header Files\Utilities\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="Pen.cpp">
+      <Filter>Header Files\Utilities\Pen</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleEdit.cpp">
+      <Filter>Header Files\Event Process\HandleEdit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Paint.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Paint.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
